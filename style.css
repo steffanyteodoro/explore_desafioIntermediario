@@ -1,0 +1,92 @@
+* {
+  --purple-dark: #3f3d56;
+  --purple-light: #ee24ff;
+  --gray-dark: #828282;
+  --gray-light: #eceff2;
+
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  color: var(--purple-dark);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Dosis", sans-serif;
+}
+
+main {
+  width: 626px;
+  margin: 64px auto 64px;
+}
+
+main .content {
+  margin: 32px auto 64px;
+}
+
+main .content h1 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+main .content h1 span {
+  color: var(--purple-light);
+  font-weight: bold;
+}
+
+main .content p {
+  color: var(--gray-dark);
+  font-weight: normal;
+  line-height: 22px;
+  margin-top: 16px;
+  font-size: 15px;
+}
+
+main .content p span {
+  font-weight: bold;
+  color: var(--purple-dark);
+}
+
+main .content p + p {
+  margin-top: 32px;
+}
+
+footer {
+  width: 100%;
+}
+
+footer .line {
+  width: 391px;
+  margin: 64px auto 16px;
+  border: 1px solid var(--gray-light);
+}
+
+footer .links {
+  display: flex;
+  flex-direction: line;
+  align-items: center;
+  justify-content: center;
+  gap: 42px;
+  margin-bottom: 40px;
+  color: var(--purple-dark);
+  font-weight: bold;
+}
+
+.rodape {
+  width: 100%;
+}
+
+.rodape img {
+  width: 100%;
+}
